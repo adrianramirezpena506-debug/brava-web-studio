@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030303" />
+    <meta name="description" content="Creamos páginas web modernas, profesionales y adaptadas a celular para negocios que quieren generar más confianza, consultas, cotizaciones y ventas." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CR" />
+    <meta property="og:title" content="Brava Web Studio | Diseño de páginas web en Costa Rica" />
+    <meta property="og:description" content="Páginas modernas y estratégicas para negocios que quieren generar confianza y recibir más consultas." />
+    <meta property="og:image" content="/assets/brava-og.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Brava Web Studio | Diseño web en Costa Rica" />
+    <meta name="twitter:description" content="Páginas modernas y estratégicas para negocios que quieren generar confianza y recibir más consultas." />
+    <meta name="twitter:image" content="/assets/brava-og.webp" />
+    <!-- Completar con el dominio definitivo al publicar. -->
+    <link rel="canonical" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <title>Brava Web Studio | Diseño de páginas web en Costa Rica</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Brava Web Studio",
+        "description": "Diseño y desarrollo de páginas web para negocios en Costa Rica.",
+        "areaServed": { "@type": "Country", "name": "Costa Rica" }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Diseño y desarrollo de páginas web",
+        "serviceType": "Diseño, rediseño y desarrollo web",
+        "areaServed": { "@type": "Country", "name": "Costa Rica" },
+        "provider": { "@type": "Organization", "name": "Brava Web Studio" }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <canvas id="canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <nav class="navbar" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Brava Web Studio, ir al inicio">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <defs><linearGradient id="brand-gradient" x1="4" y1="3" x2="40" y2="41"><stop stop-color="#c084fc"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>
+            <path fill="url(#brand-gradient)" d="M22 2 39 12v20L22 42 5 32V12L22 2Zm0 7.1L11 15.5v13L22 34.9l11-6.4v-13L22 9.1Z"/>
+            <path fill="url(#brand-gradient)" d="m14 19 8-4.6L30 19l-8 4.6L14 19Zm0 7 8-4.6 8 4.6-8 4.6L14 26Z" opacity=".72"/>
+          </svg>
+          <span class="brand-type"><strong>BRAVA</strong><small>WEB STUDIO</small></span>
+        </a>
+
+        <div class="desktop-nav" aria-label="Secciones">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#precios">Precios</a>
+          <a href="#proceso">Proceso</a>
+        </div>
+
+        <a class="button button-primary nav-cta" data-whatsapp="navbar" href="#">Cotizar por WhatsApp</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+          <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+
+        <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+          <a href="#inicio" tabindex="-1">Inicio</a>
+          <a href="#servicios" tabindex="-1">Servicios</a>
+          <a href="#portafolio" tabindex="-1">Portafolio</a>
+          <a href="#precios" tabindex="-1">Precios</a>
+          <a href="#proceso" tabindex="-1">Proceso</a>
+          <a class="button button-primary" data-whatsapp="navbar" href="#" tabindex="-1">Cotizar por WhatsApp</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section-shell" id="inicio">
+        <div class="hero-media" aria-hidden="true">
+          <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="/assets/hero/brava-hero-poster.webp" disablepictureinpicture>
+            <source src="/assets/hero/brava-hero.webm" type="video/webm" />
+            <source src="/assets/hero/brava-hero.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-video-overlay"></div>
+          <div class="hero-pointer-glow"></div>
+        </div>
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="hero-badge hero-animate"><span>BRAVA</span> DISEÑO WEB PARA NEGOCIOS</div>
+          <h1 class="hero-animate hero-delay-1">Páginas que convierten<br />visitas en <span>clientes.</span></h1>
+          <p class="hero-copy hero-animate hero-delay-2">Creamos páginas modernas, profesionales y adaptadas a celular para que su negocio genere más confianza, consultas, cotizaciones, reservas y ventas.</p>
+          <div class="hero-actions hero-animate hero-delay-3">
+            <a class="button button-primary button-large" data-whatsapp="hero" href="#">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+            <a class="button button-glass button-large" href="#portafolio">Ver nuestro trabajo</a>
+          </div>
+          <p class="hero-support hero-animate hero-delay-4">Diseño personalizado <i>·</i> Entrega rápida <i>·</i> Atención directa</p>
+        </div>
+        <a class="scroll-cue" href="#servicios" aria-label="Ir a servicios"><span></span>Descubra Brava</a>
+      </section>
+
+      <section class="proof-strip" aria-labelledby="proof-title">
+        <div class="section-shell proof-inner reveal">
+          <div class="proof-heading"><p id="proof-title">Proyectos creados para negocios reales</p><span>6 proyectos publicados</span></div>
+          <div class="wordmarks" aria-label="Proyectos publicados">
+            <span>Pura Frutika</span><span>Electricista YA</span><span>Cerkos CR</span><span>Coco’s Tours</span><span>ROMAC</span><span>URBAN 10</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" id="servicios">
+        <header class="section-heading reveal">
+          <p class="eyebrow">LO QUE HACEMOS</p>
+          <h2>Diseño, desarrollo y estrategia <span>en un solo lugar.</span></h2>
+          <p>No creamos páginas únicamente para que se vean bien. Diseñamos estructuras que ayudan a las personas a entender el negocio, confiar en él y ponerse en contacto.</p>
+        </header>
+        <div class="services-grid">
+          <article class="service-card service-wide reveal">
+            <span class="service-number">01</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></div>
+            <h3>Creación de páginas web</h3><p>Diseño y desarrollo de páginas profesionales desde cero, adaptadas a la identidad y objetivos de cada negocio.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">02</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19V5h16v14H4Z"/><path d="m8 15 8-8M8 9h.01M16 15h.01"/></svg></div>
+            <h3>Rediseño de páginas</h3><p>Modernizamos páginas antiguas, confusas o poco profesionales sin perder la información importante del negocio.</p>
+          </article>
+          <article class="service-card service-tall reveal">
+            <span class="service-number">03</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 5h4M11 18h2"/></svg></div>
+            <h3>Diseño para celular</h3><p>Cada página se optimiza para que funcione correctamente en teléfonos, tabletas y computadoras.</p>
+          </article>
+          <article class="service-card service-accent reveal">
+            <span class="service-number">04</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 9.5c.5 2 1.5 3 3.5 3.8l1.3-1 1.7 1.2c-.4 1.5-1.4 2-2.7 1.8-3.4-.6-6-3.1-6.6-6.4-.2-1.2.4-2.2 1.8-2.6L9.2 8 9 9.5Z"/></svg></div>
+            <h3>Integración con WhatsApp</h3><p>Creamos rutas de contacto claras para facilitar consultas, cotizaciones, pedidos y reservas.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">05</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg></div>
+            <h3>Catálogos y servicios</h3><p>Organizamos productos, servicios, propiedades, menús o experiencias para que sean fáciles de explorar.</p>
+          </article>
+          <article class="service-card service-wide reveal">
+            <span class="service-number">06</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 2.1 5.2L20 10l-4.5 3.5.2 5.8L12 16l-3.7 3.3.2-5.8L4 10l5.9-1.8L12 3Z"/></svg></div>
+            <h3>Animaciones profesionales</h3><p>Utilizamos movimiento y microinteracciones para elevar la presentación sin perjudicar la velocidad o facilidad de uso.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section portfolio-section" id="portafolio">
+        <div class="section-shell">
+          <header class="section-heading reveal">
+            <p class="eyebrow">NUESTRO TRABAJO</p>
+            <h2>Páginas creadas para <span>negocios reales.</span></h2>
+            <p>Cada proyecto se adapta al sector, público y objetivos comerciales del negocio.</p>
+          </header>
+          <div class="portfolio-grid">
+            <article class="project-card project-featured reveal">
+              <a href="https://purafrutika-web-4cjp.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Pura Frutika en una nueva pestaña">
+                <div class="project-visual">
+                  <div class="browser-frame"><div class="browser-bar"><span></span><span></span><span></span><em>purafrutika</em></div><img src="/assets/portfolio/pura-frutika-desktop.webp" width="1440" height="900" alt="Página de inicio de Pura Frutika en computadora" fetchpriority="high" /></div>
+                  <div class="phone-frame"><img src="/assets/portfolio/pura-frutika-mobile.webp" width="390" height="844" alt="Página de Pura Frutika en celular" /></div>
+                </div>
+                <div class="project-info"><div><p>Restaurante y alimentación</p><h3>Pura Frutika</h3><span>Una experiencia fresca para descubrir su propuesta de alimentación y conectar con la marca.</span></div><strong>Ver proyecto <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></strong></div>
+              </a>
+            </article>
+            <article class="project-card project-medium reveal">
+              <a href="https://electricista-ya.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Electricista YA en una nueva pestaña">
+                <div class="project-visual"><div class="browser-frame"><div class="browser-bar"><span></span><span></span><span></span><em>electricista-ya</em></div><img loading="lazy" src="/assets/portfolio/electricista-ya-desktop.webp" width="1440" height="900" alt="Página de inicio de Electricista YA en computadora" /></div><div class="phone-frame phone-small"><img loading="lazy" src="/assets/portfolio/electricista-ya-mobile.webp" width="390" height="844" alt="Página de Electricista YA en celular" /></div></div>
+                <div class="project-info"><div><p>Servicios eléctricos</p><h3>Electricista YA</h3><span>Una página directa que organiza servicios eléctricos y facilita solicitudes por WhatsApp.</span></div><strong>Ver proyecto <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></strong></div>
+              </a>
+            </article>
+            <article class="project-card project-medium reveal">
+              <a href="https://cerkos-cr.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Cerkos CR en una nueva pestaña">
+                <div class="project-visual"><div class="browser-frame"><div class="browser-bar"><span></span><span></span><span></span><em>cerkos-cr</em></div><img loading="lazy" src="/assets/portfolio/cerkos-cr-desktop.webp" width="1440" height="900" alt="Página de inicio de Cerkos CR en computadora" /></div><div class="phone-frame phone-small"><img loading="lazy" src="/assets/portfolio/cerkos-cr-mobile.webp" width="390" height="844" alt="Página de Cerkos CR en celular" /></div></div>
+                <div class="project-info"><div><p>Cerramientos y seguridad</p><h3>Cerkos CR</h3><span>Una presentación técnica y clara de soluciones de cerramiento y seguridad.</span></div><strong>Ver proyecto <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></strong></div>
+              </a>
+            </article>
+            <article class="project-card project-support reveal">
+              <a href="https://cocos-tours-gilt.vercel.app/es" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Coco’s Tours en una nueva pestaña">
+                <div class="project-visual"><div class="browser-frame"><div class="browser-bar"><span></span><span></span><span></span><em>cocos-tours</em></div><img loading="lazy" src="/assets/portfolio/cocos-tours-desktop.webp" width="1440" height="900" alt="Página de Coco’s Tours en computadora" /></div></div>
+                <div class="project-info"><div><p>Turismo y experiencias</p><h3>Coco’s Tours</h3><span>Un escaparate visual para descubrir tours y experiencias en el Golfo de Nicoya.</span></div><strong>Ver proyecto <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></strong></div>
+              </a>
+            </article>
+            <article class="project-card project-support reveal">
+              <a href="https://multiservicios-romac-4e8q.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Multiservicios Romac en una nueva pestaña">
+                <div class="project-visual"><div class="browser-frame"><div class="browser-bar"><span></span><span></span><span></span><em>multiservicios-romac</em></div><img loading="lazy" src="/assets/portfolio/multiservicios-romac-desktop.webp" width="1440" height="900" alt="Página de Multiservicios Romac en computadora" /></div></div>
+                <div class="project-info"><div><p>Mantenimiento y servicios</p><h3>Multiservicios Romac</h3><span>Una web orientada a explicar servicios de mantenimiento y preparar cotizaciones.</span></div><strong>Ver proyecto <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></strong></div>
+              </a>
+            </article>
+            <article class="project-card project-support reveal">
+              <a href="https://urban10-web.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Urban 10 en una nueva pestaña">
+                <div class="project-visual"><div class="browser-frame"><div class="browser-bar"><span></span><span></span><span></span><em>urban10</em></div><img loading="lazy" src="/assets/portfolio/urban10-desktop.webp" width="1440" height="900" alt="Página de Urban 10 en computadora" /></div></div>
+                <div class="project-info"><div><p>Proyecto inmobiliario</p><h3>Urban 10</h3><span>Una experiencia inmobiliaria que presenta apartamentos, amenidades y ubicación.</span></div><strong>Ver proyecto <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></strong></div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" id="precios">
+        <header class="section-heading section-heading-center reveal">
+          <p class="eyebrow">PLANES</p>
+          <h2>Una opción para cada etapa <span>de su negocio.</span></h2>
+          <p>Los precios pueden variar cuando el proyecto requiere funciones o contenido fuera del alcance indicado.</p>
+        </header>
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <div class="price-top"><p>PÁGINA BÁSICA</p><span>1 a 3 días</span></div><h3>₡60.000</h3><p class="price-description">Para negocios pequeños que necesitan una presencia digital sencilla y profesional.</p>
+            <ul><li>Página de una sola sección</li><li>Diseño personalizado</li><li>Presentación del negocio</li><li>Servicios principales</li><li>Botón de WhatsApp</li><li>Formulario básico</li><li>Redes sociales</li><li>Mapa, cuando corresponda</li><li>Adaptación para celular</li><li>SEO básico</li><li>Una ronda de cambios</li></ul>
+            <a class="button button-glass" data-whatsapp="basic" href="#">Elegir plan básico</a>
+          </article>
+          <article class="price-card price-featured reveal">
+            <span class="recommended">RECOMENDADA</span><div class="price-top"><p>PÁGINA PROFESIONAL</p><span>2 a 5 días</span></div><h3>₡100.000</h3><p class="price-description">Para negocios que quieren una página más completa, moderna y enfocada en generar clientes.</p>
+            <ul><li>Hasta cinco secciones completas</li><li>Diseño profesional personalizado</li><li>Portada de alto impacto</li><li>Presentación detallada de servicios</li><li>Sección sobre la empresa</li><li>Galería de trabajos</li><li>Testimonios reales proporcionados por el cliente</li><li>WhatsApp integrado</li><li>Formulario personalizado</li><li>Animaciones moderadas</li><li>Adaptación completa para celular</li><li>SEO básico</li><li>Optimización de imágenes</li><li>Dos rondas de cambios</li></ul>
+            <a class="button button-primary" data-whatsapp="professional" href="#">Elegir plan profesional</a>
+          </article>
+          <article class="price-card reveal">
+            <div class="price-top"><p>PÁGINA PREMIUM</p><span>3 a 7 días</span></div><h3>₡140.000</h3><p class="price-description">Para negocios que necesitan una presentación visual más avanzada y funciones especiales.</p>
+            <ul><li>Diseño premium personalizado</li><li>Varias páginas o secciones</li><li>Animaciones avanzadas</li><li>Catálogo de servicios, productos, propiedades o tours</li><li>Galerías interactivas</li><li>Formularios de cotización o reserva</li><li>Integración con WhatsApp</li><li>Secciones especiales</li><li>Adaptación completa para celular</li><li>SEO básico mejorado</li><li>Optimización de imágenes</li><li>Tres rondas de cambios</li></ul>
+            <a class="button button-glass" data-whatsapp="premium" href="#">Elegir plan premium</a>
+          </article>
+        </div>
+        <div class="pricing-conditions reveal" aria-label="Condiciones de los planes">
+          <strong>Condiciones claras desde el inicio</strong>
+          <ul><li>50 % para comenzar.</li><li>50 % antes de publicar o entregar.</li><li>Los plazos comienzan después de recibir el pago inicial y todo el contenido.</li><li>Dominio, hosting y servicios externos no están incluidos.</li><li>Las funciones especiales se cotizan por separado.</li><li>Los retrasos en entrega de contenido o aprobación no cuentan dentro del plazo.</li></ul>
+        </div>
+      </section>
+
+      <section class="content-section process-section" id="proceso">
+        <div class="section-shell">
+          <header class="section-heading reveal"><p class="eyebrow">PROCESO</p><h2>De la idea a una página <span>lista para vender.</span></h2></header>
+          <ol class="process-list">
+            <li class="reveal"><span>01</span><div><h3>Analizamos el negocio</h3><p>Revisamos sus servicios, clientes, competencia, redes sociales y objetivos.</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>Definimos el proyecto</h3><p>Acordamos la estructura, estilo, funciones, precio y plazo.</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>Diseñamos y desarrollamos</h3><p>Creamos la página y presentamos una versión para revisión.</p></div></li>
+            <li class="reveal"><span>04</span><div><h3>Publicamos</h3><p>Después de la aprobación y el pago final, conectamos la página al dominio.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="content-section section-shell why-section">
+        <div class="why-copy reveal"><p class="eyebrow">POR QUÉ BRAVA</p><h2>Diseño atractivo.<br />Estrategia clara.<br /><span>Resultados reales.</span></h2><p>Cada decisión de diseño debe ayudar al visitante a entender el negocio y realizar una acción.</p></div>
+        <div class="why-list">
+          <article class="reveal"><span>01</span><h3>Diseño personalizado</h3></article>
+          <article class="reveal"><span>02</span><h3>Enfoque comercial</h3></article>
+          <article class="reveal"><span>03</span><h3>Excelente experiencia móvil</h3></article>
+          <article class="reveal"><span>04</span><h3>Atención directa por WhatsApp</h3></article>
+        </div>
+      </section>
+
+      <section class="final-cta section-shell reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <div><p class="eyebrow">HABLEMOS DE SU PROYECTO</p><h2>Su negocio merece una página que esté <span>a su nivel.</span></h2><p>Cuéntenos qué hace su negocio y le recomendaremos el plan más adecuado.</p></div>
+        <div class="cta-actions"><a class="button button-primary button-large" data-whatsapp="final" href="#">Cotizar mi página por WhatsApp <span aria-hidden="true">→</span></a><a class="text-link" href="#precios">Ver planes</a></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section-shell footer-grid">
+        <div class="footer-brand"><a class="brand" href="#inicio" aria-label="Brava Web Studio, ir al inicio"><svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><defs><linearGradient id="footer-brand-gradient" x1="4" y1="3" x2="40" y2="41"><stop stop-color="#c084fc"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs><path fill="url(#footer-brand-gradient)" d="M22 2 39 12v20L22 42 5 32V12L22 2Zm0 7.1L11 15.5v13L22 34.9l11-6.4v-13L22 9.1Z"/><path fill="url(#footer-brand-gradient)" d="m14 19 8-4.6L30 19l-8 4.6L14 19Zm0 7 8-4.6 8 4.6-8 4.6L14 26Z" opacity=".72"/></svg><span class="brand-type"><strong>BRAVA</strong><small>WEB STUDIO</small></span></a><p>Diseño y desarrollo web para negocios que quieren mejorar su imagen, generar confianza y conseguir más clientes.</p></div>
+        <div><h2>Navegación</h2><a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#portafolio">Portafolio</a><a href="#proceso">Proceso</a></div>
+        <div><h2>Servicios</h2><a href="#servicios">Creación web</a><a href="#servicios">Rediseño</a><a href="#servicios">Diseño móvil</a><a href="#servicios">WhatsApp</a></div>
+        <div><h2>Comenzar</h2><a href="#precios">Ver planes</a><a data-whatsapp="final" href="#">Escribir por WhatsApp</a></div>
+      </div>
+      <div class="section-shell footer-bottom"><p>© <span data-current-year></span> Brava Web Studio.</p><p>Diseñado en Costa Rica.</p></div>
+    </footer>
+
+    <a class="floating-whatsapp" data-whatsapp="floating" href="#" aria-label="Cotizar página por WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.5L3.5 20.7 5 16.4a8.5 8.5 0 1 1 15.5-4.7Z"/><path d="M9 8.8c.5 2.2 1.7 3.5 3.8 4.3l1.4-1 1.8 1.2c-.4 1.6-1.5 2.2-2.9 2-3.6-.6-6.4-3.3-7-6.8-.2-1.3.4-2.3 1.9-2.8l1.3 1.8L9 8.8Z"/></svg>
+      <span>Cotizar por WhatsApp</span>
+    </a>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

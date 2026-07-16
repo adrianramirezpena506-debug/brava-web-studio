@@ -1,0 +1,22 @@
+{
+  "name": "brava-web-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "capture:portfolio": "node scripts/capture-portfolio.mjs",
+    "create:og": "node scripts/create-og.mjs",
+    "process:video": "node scripts/process-hero-video.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "ffmpeg-static": "latest",
+    "globals": "latest",
+    "sharp": "latest",
+    "vite": "latest"
+  }
+}
