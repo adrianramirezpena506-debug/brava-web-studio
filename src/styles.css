@@ -1443,6 +1443,12 @@ h3 {
   .project-medium .project-visual, .project-support .project-visual { min-height: 360px; padding: 30px 30px 0; }
   .project-support .project-info { min-height: 180px; }
   .project-card { transform: none !important; }
+  .project-card[data-project="cocos-tours"] { order: 1; }
+  .project-card[data-project="romac"] { order: 2; }
+  .project-card[data-project="pura-frutika"] { order: 3; }
+  .project-card[data-project="urban10"] { order: 4; }
+  .project-card[data-project="cerkos-cr"] { order: 5; }
+  .project-card[data-project="electricista-ya"] { order: 6; }
   .pricing-grid { grid-template-columns: 1fr; gap: 28px; }
   .price-card, .price-featured { width: 100%; min-height: 0; padding: 30px; transform: none; }
   .price-description { min-height: 0; }
